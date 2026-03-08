@@ -2,6 +2,58 @@
   text-align: center;
 }
 
+.search-section {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.search-section input {
+  width: 300px;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.search-section button {
+  padding: 8px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.statistics-section {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #e3f2fd;
+  border-radius: 5px;
+}
+
+.statistics-section h3 {
+  margin-top: 0;
+}
+
+.statistics-section p {
+  margin: 8px 0;
+  text-align: left;
+}
+
+.export-btn {
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.export-btn:hover {
+  background-color: #0b7dda;
+}
+
 .container {
   display: flex;
   justify-content: space-around;
@@ -15,6 +67,7 @@
 table {
   width: 100%;
   border-collapse: collapse;
+  margin-top: 10px;
 }
 
 th, td {
@@ -29,6 +82,15 @@ th {
 button {
   margin: 5px;
   padding: 5px 10px;
+  background-color: #008CBA;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #007399;
 }
 
 form {
@@ -37,8 +99,10 @@ form {
   align-items: center;
 }
 
-input {
+input, select {
   margin: 5px;
-  padding: 5px;
+  padding: 8px;
   width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
 }

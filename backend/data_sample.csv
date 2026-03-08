@@ -1,0 +1,14 @@
+class_id,class_name,advisor
+C01,Khoa học máy tính 1,Nguyen Van A
+C02,Kỹ thuật phần mềm,Tran Van B
+C03,Công nghệ thông tin,Le Van C
+
+student_id,name,birth_year,major,gpa,class_id
+1231234,Hao,2005,Computer Science,3.2,C01
+1231235,Linh,2005,Computer Science,3.5,C01
+1231236,Duc,2005,Software Engineering,3.8,C02
+1231237,An,2004,Information Technology,3.3,C03
+1231238,Binh,2004,Computer Science,3.6,C01
+1231239,Chi,2005,Software Engineering,3.9,C02
+1231240,Dung,2004,Information Technology,3.4,C03
+1231241,Em,2005,Computer Science,3.7,C01
